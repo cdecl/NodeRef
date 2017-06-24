@@ -1,11 +1,11 @@
 
-## tinyxml2 wrapper class 
+# tinyxml2 wrapper class 
 - https://github.com/leethomason/tinyxml2.git
 
-#### Requirements
+## Requirements
 - boost header, boost.locale
 
-#### Examples
+## Examples
 
 ```cpp
 
