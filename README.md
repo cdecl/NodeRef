@@ -3,7 +3,7 @@
 - https://github.com/leethomason/tinyxml2.git
 
 ## Requirements
-- boost header, boost.locale
+- boost header, boost.locale 
 
 ## Examples
 
@@ -17,8 +17,8 @@ auto root = doc.RootElement();
 
 auto list = Node(root).Select("/url-group/item");
 for (auto &e : list) {
-	string name = Node(e).First("name").Text();
-	string issue_type = Node(e).First("issue-type").Text();
+	string name = e..First("name").Text();
+	string issue_type = e..First("issue-type").Text();
 }
 
 ```
